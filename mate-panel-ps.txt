@@ -1,0 +1,17 @@
+  PID TTY      STAT   TIME COMMAND
+ 1117 tty1     Ss     0:00 /bin/login -p --
+ 1781 tty1     S      0:00 -bash
+ 1859 tty1     S+     0:00 /bin/sh /usr/bin/startx
+ 1885 tty1     S+     0:00 xinit /etc/X11/xinit/xinitrc -- /etc/X11/xinit/xserverrc :0 vt1 -keeptty -auth /tmp/serverauth.D4xgxxAEQz
+ 1886 tty1     Sl     0:05 /usr/lib/xorg/Xorg -nolisten tcp :0 vt1 -keeptty -auth /tmp/serverauth.D4xgxxAEQz
+ 1909 tty1     Sl     0:00 x-session-manager
+ 1974 tty1     Sl     0:00 gnome-keyring-daemon --start
+ 1978 tty1     Sl     0:00 /usr/bin/mate-settings-daemon
+ 1982 tty1     Sl     0:00 marco
+ 1986 tty1     Sl     0:00 mate-panel
+ 2073 tty1     Sl     0:00 caja
+ 2098 tty1     Sl     0:00 /usr/lib/x86_64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
+ 2099 tty1     Sl     0:00 mate-power-manager
+ 2100 tty1     Sl     0:00 mate-screensaver
+ 2827 pts/0    Ss     0:00 bash
+ 2869 pts/0    R+     0:00 ps a
