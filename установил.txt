@@ -1,15 +1,17 @@
  167  sudo apt install mate-themes
-    Вроде тема "Menta" нормасс (уже в нужном конфиге)
+    # Вроде тема "Menta" нормасс ( в конфиге ~/.gtkrc-2.0 или через LXappearance)
+# тема - это как выгдяит креcтик закрытия
+# виджеты ( gtk-theme-name ) - это как окно выглядит без иконок
 
-вроде сам mate тож ничё:
+#вроде сам mate тож ничё:
   271  sudo apt install mate-desktop
   324  sudo apt install mate-core 
   325  sudo apt install mate-desktop-environment
-    И его приложухи ничё:
+    #И его приложухи ничё:
 Pluma, Caja, панели (смотри mate-panel-ps.txt), Marco?
-    и ещё норм шрифты (сделать в gvim): 
+   # и ещё норм шрифты (сделать в gvim): 
 Ubuntu Mono 13 (более НЕровный)
-Monospace regular 11 (более Ровный) (скрин 2018-09-20 07-30-51.png)
+Monospace regular 11 (более Ровный) - его выбираю (скрин 2018-09-20 07-30-51.png)
 
 ====приложухи на пробу====
 ranger
@@ -17,7 +19,7 @@ qtcreator
 
 
 
-==========должен подтягивать файлы======
+==========должен подтягивать файлы своей супер утилитой======
 ~/.vimrc - его я создавал сам
 ~/.config/openbox/rc.xml - его скопировал с оригинала
 
