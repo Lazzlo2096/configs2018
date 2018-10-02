@@ -1,0 +1,34 @@
+### 2. Внешний Вид только (WM/DM/DE, окружение..)
+
+##Больше тем:
+https://www.gnome-look.org/p/1214421/
+#Ещё из (стнадартных) мне наверн понравилась TraditionalOK
+
+##1.====================
+? pcmanfm нет значка создать новую вкладку
+и нет некоторых значков в опенбокс-меню
+!решение:
+-------------
+{ https://askubuntu.com/questions/tagged/pcmanfm
+"no icon in pcmanfm"
+Защёл с аккаунта СтекЭксчендж }
+
+#https://www.omgubuntu.co.uk/2016/07/how-to-install-papirus-icon-theme-ubuntu
+#sudo add-apt-repository ppa:papirus/papirus
+#sudo apt update #сработало и без этовго в Multiverse
+sudo apt install papirus-icon-theme
+
+#https://askubuntu.com/questions/223399/how-to-get-icons-in-pcmanfm-ubuntu-12-10-with-only-fluxbox
+#the theme you want, which has to be located in /usr/share/icons
+echo "gtk-icon-theme-name = \"Papirus-Light\"" > ~/
+----
+Либо можно юзать приложухи : 
+  LXappearance ( от LXDE) или LXappearance-obconf
+  gtk-theme-switch
+  gtk-chtheme
+  gnome-color-chooser
+[ http://www.aidalinux.ru/w/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0_%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9_GTK#.D0.90.D0.B2.D1.82.D0.BE.D0.BC.D0.B0.D1.82.D0.B8.D1.87.D0.B5.D1.81.D0.BA.D0.B8 ]
+
+=======END1===========
+
+##6 чтоб в obmenu были значки как и в теме

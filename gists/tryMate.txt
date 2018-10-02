@@ -1,0 +1,35 @@
+#Попробовать Ubuntu-Mate (не UbServer):
+* Может быть бы надопосигарться с темками
+* Установил Ubuntu-Mate, опробовал и вроде мило (но ужасно похоже на обычную убунту), может и сойдёт. Но почувствовал что потерял контроль над системой...
+* захотел установить mate на чистую-server систему -> (см. "UbSvr + mate")
+
+
+==============================UbSvr + mate===========================================
+#Установить просто стиль:
+31  sudo apt install marco
+71  sudo apt install papirus-icon-theme 
+167  sudo apt install mate-themes
+
+# Вроде тема (gtk-theme-name, не иконки (, не бордер?) ) "Menta" нормасс ( в конфиге ~/.gtkrc-2.0 или через LXappearance или тому подобное...)
+#{стиль рамки окна - это как выгдяит креcтик закрытия (например в openbox).
+виджеты, темы ( gtk-theme-name ) - это как окно выглядит, не иконоки.}
+
+#вроде сам mate тож ничё:
+=====what i install on UbSvr for mate====:
+271  sudo apt install mate-desktop
+324  sudo apt install mate-core 
+325  sudo apt install mate-desktop-environment
+--OTHER:
+269  sudo apt install kde-plasma-desktop
+270  sudo apt install kubuntu-desktop 
+---and what i use:
+control elents: TraditionalGreen
+windows border: TraditionalOk
+icons: Papirus (maybe somefing else?)
+mouse: Mate(black) 
+======================END=================
+  #И его приложухи ничё:
+Pluma, Caja, панели (смотри mate-panel-ps.txt), Marco?
+   # и ещё норм шрифты (сделать в gvim): 
+Ubuntu Mono 13 (более НЕровный)
+Monospace regular 11 (более Ровный) - его выбираю (скрин 2018-09-20 07-30-51.png [https://github.com/Lazzlo2096/configs2018/blob/master/2018-09-20%2007-30-51.png] )

@@ -2,6 +2,7 @@
 ranger
 qtcreator
 
+	rxvt 
 
 =======
 #/.config/gtk-3.0

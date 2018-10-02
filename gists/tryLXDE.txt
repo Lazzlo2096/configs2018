@@ -1,0 +1,11 @@
+#вродь хуже, чем UbSvr+mate
+
+lxde
+lxde-common
+lxde-core
+[& ?archwiki ]
+
+papirus
+mate-themes
+
+BlueMenta, papirus, Win.Border(OB):Onyx

@@ -1,0 +1,16 @@
+#1. Vim (ide)
+ -> https://gist.github.com/Lazzlo2096/edda2d7dc48f78c174b8850e2e127228
+
+#2. Внешний Вид только (WM/DM/DE, окружение..)
+ -> https://gist.github.com/Lazzlo2096/6b0f8c4afa30cd9887b02cd918924b01
+
+#4 программы по дефолту
+https://forums.bunsenlabs.org/viewtopic.php?id=266
+sudo update-alternatives --config x-terminal-emulator
+
+#7 сделать папки Документы Видео Загрузки и т.л. на английском
+# ~/.config/user-dirs.dir - вроде создано XDG, отвечает за названия папок в home_dir
+[ https://askubuntu.com/questions/465647/change-the-language-of-the-home-user-folders-automatically ]
+LANG=C xdg-user-dirs-update --force
+
+#8. чтобы в git не было имён кирилических фалов вида "\321\203"

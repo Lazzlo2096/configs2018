@@ -1,0 +1,125 @@
+    1  sudo apt install pcmanfm
+    2  shutdown -h
+    3  shutdown -c
+    4  shutdown --help
+    5  time
+    6  times
+    7  timeout 
+    8  timedatectl 
+    9  timedatectl --help
+   10  timedatectl set-timezone +3
+   11  timedatect
+   12  timedatectl set-timezone MSK
+   13  help
+   14  apt
+   15  apt-get update
+   16  sudo apt-get update
+   17  sudo apt-get install openbox
+   18  openbox
+   19  sudo apt-get install xserver-xorg
+   20  xstart
+   21  startx
+   22  sudo apt-get install xorg
+   23  list
+   24  tall
+   25  tail
+   26  sudo apt-get install xorg | tail
+   27  sudo apt-get install xorg | head -10
+   28  sudo apt-get install xorg
+   29  sudo apt-get install obconf obmenu 
+   30  startx
+   31  sudo apt-get install xterm
+   32  startx
+   33  sudo apt install firefox
+   34  sudo apt install mousepad 
+   35  sudo apt install mousepad leafpad 
+   36  sudo apt remove mousepad 
+   37  setxkbmap -layout "us,ru(winkeys)" -model "pc105" -option "grp:alt_shift_toggle,grp_led:scroll" &
+   38  cd ./Документы/sendbox/
+   39  python2
+   40  python3
+   41  python3 main.py 
+   42  sudo apt install vim-gtk3
+   43  vim.gtk3 
+   44  sudo apt install vim-gtk
+   45  vim.gt
+   46  sudo apt remove vim-gtk vim-gtk3
+   47  sudo apt install vim-gnome 
+   48  gvi
+   49  sudo apt install neovim
+   50  nvim
+   51  nvim --help
+   52  sudo apt install neovim-qt
+   53  nvim-qt 
+   54  hist
+   55  history 
+   56  shutdown now
+   57  exit
+   58  sudo apt install  vim-athena 
+   59  vim.athena
+   60  sudo apt install  vim-nox 
+   61  vim.nox 
+   62  sudo apt remove  vim-nox vim-athena vim-gtk3 
+   63  sudo apt remove  vim-nox vim-athena
+   64  sudo apt install  vim-nox vim-athena
+   65  gvim --help
+   66  gvim
+   67  vim --verison
+   68  vim --version
+   69  sudo apt remove  vim-nox vim-athena
+   70  nvim --version
+   71  echo $VIM
+   72  echo $PATH
+   73  nvim /usr/share/nvim
+   74  nvim-qt 
+   75  nvim
+   76  sudo apt install python3-qt5
+   77  sudo apt update 
+   78  sudo apt install python3-q
+   79  sudo apt install python3-pyqt5 pyqt5-dev-tools qtcreator
+   80  pyuic5 
+   81  yqt5-dbg                python3-pyqt5.qtwebengine-dbg
+   82  python3-pyqt5.qsci               python3-pyqt5.qtwebkit
+   83  python3-pyqt5.qsci-dbg           python3-pyqt5.qtwebkit-dbg
+   84  python3-pyqt5.qtmultimedia       python3-pyqt5.qtwebsockets
+   85  python3-pyqt5.qtmultimedia-dbg   python3-pyqt5.qtwebsockets-dbg
+   86  python3-pyqt5.qtopengl           python3-pyqt5.qtx11extras
+   87  python3-pyqt5.qtopengl-dbg       python3-pyqt5.qtx11extras-dbg
+   88  python3-pyqt5.qtpositioning      python3-pyqt5.qtxmlpatterns
+   89  python3-pyqt5.qtpositioning-dbg  python3-pyqt5.qtxmlpatterns-dbg
+   90  python3-pyqt5.qtquick            python3-pyqtgraph
+   91  setxkbmap -layout "us,ru(winkeys)" -model "pc105" -option "grp:alt_shift_toggle,grp_led:scroll" &
+   92  cd ./Документы/sendbox/
+   93  pyuic5 ./ui1.ui 
+   94  pyuic5 ./ui1.ui -o design.py
+   95  python3 ./main.py 
+   96  startx
+   97  nvim --version
+   98  nvim-qt --version
+   99  nvim-qt -v
+  100  nvim-qt
+  101  nvim
+  102  nvim-qt
+  103  shutdown 
+  104  startx
+  105  setxkbmap -layout "us,ru(winkeys)" -model "pc105" -option "grp:alt_shift_toggle,grp_led:scroll" &
+  106  sudo apt install geany
+  107  sudo apt update 
+  108  shutdown now
+  109  man tty
+  110  vim
+  111  ls
+  112  startx
+  113  sudo apt install virtualbox-guest-additions-iso 
+  114  reboot
+  115  ls
+  116  where startx
+  117  who
+  118  where
+  119  whereis startx
+  120  apt list
+  121  history 
+  122  history > ~/hist.txt
+  123  sudo apt remove geany
+  124  sudo apt autoremove 
+  125  history > ~/hist.txt

@@ -190,7 +190,7 @@
     </keybind>
     <keybind key="W-r">
       <action name="Execute">
-        <command>gvim</command>
+        <command>pluma</command>
       </action>
     </keybind>
     <keybind key="A-F2">

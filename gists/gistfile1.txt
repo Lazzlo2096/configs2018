@@ -1,0 +1,92 @@
+~/.gtkrc-2.0 - это настроичный файл GTK очевидно. В нём меняем темы и иконки, и в openboxe и pcmanfe'e они меняються
+
+openbox зависит от libglib2.0-0 [ https://packages.debian.org/stretch/libglib2.0-0 ] - GLib — это библиотека C-библиотека общего назначения используется в проектах GTK+, GIMP и GNOME.
+
+#Посмотреть зависимости установелнных пакетов:
+apt-cache depenence <pkg>
+dpkg -l #всё установелнные пактеы в системе
+
+что за папка и файлы в ~/.config/gtk-3.0 ~/.config/gtk-2.0 ? - вроде появились после установки LXappearance.
+и что за ~/.config/mimeapps.list ?
+
+ 
+ /etc/X11/openbox/autostart (или нужно скопировать в домашнюю папку) - автоматически запускает приложения при stratx
+ 
+ 
+$скрипт чтобы автоматически за'git'чивал (или просто копировал, и потом коимттил) мой (#3.горячие клавиши /etc/X11/openbox/rc.xml), если истекла поставленная дата и если есть изменения в определённых файлах (а то гит ругаеться, аутсайд оф репосит).
+Может понадобиться для запоминания конфигов и т.п. при аварийной растройстве системы.
+ 
+ 
+/etc/X11/openbox/ - это ярлык на /etc/xdg/openbox/
+
+$создать либу для fm для ВСЕЕХ настроек, собрать их отовсюду, зафоркать и мерджить, и написать свой fm
+
+
+$gmrun, не работают pgDonw и так далее калвиши для переменешия по таб списку
+почему список выводиться по табу, хочу чтоб выводился по вводу
+и чтоб можно было контролить его размер
+и чтоб уже указывал на вариант
+и чтоб gmrun закрывался, если потерял фокус
+
+
+
+##Попробовать Marco отдельно (а затем и Metacity): 
+ 1. Как мне установить Marco?
+sudo apt install marco awesome
+ 2.Как переключать что мне запускать вместо Опенбокса при startx?
+[ g startx change default window manager
+https://unix.stackexchange.com/questions/243195/what-desktop-environment-does-startx-run-and-how-can-i-change-it
+https://www.linuxquestions.org/questions/linux-software-2/change-default-window-manager-151406/
+https://wiki.archlinux.org/index.php/Xinitrc_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9) ]
+#записать в ~/.xinitrc
+xterm &
+[exec] Marco
+openbox
+###вывод:
+1.не педназначены для самомтоятельной работы (нет меню вызова приложений).
+2.В Caja и Pcmanfm разные темы значков\иконок.
+3.В меню опенбокса появляеться подменю Debian с русскими названиями (Xocloc, или awesome) (от awesome, marco или Metacity)
+
+
+
+##легковестные дистрибутивы:
+* SPARKYLINUX основан на тестовой ветке Debian, и поддерживает несколько окружений рабочего стола, в том числе LXDE, OpenBox, JWM, e17, MATE, Razor-Qt, Cli и Gnome-Razor-Qt.
+* TINY CORE поставляется c окружением рабочего стола FLTK/FKWM и BusyBox
+
+
+#см. в закладках список ещё можно попробовать...
+
+##Из готовых Дистибутивов яб прям ща работал на:
+0. Lubuntu / UbSvr+LXDE ( если именить тему )
+1.ubServer + mate {apt inst mate-desktop mate-core mate-desktop-environment} + 
+    тема: TraditioanalGreen + шривт на 1 поменьше + icons: papirus-adapta + чёртный указатель
+{or	тема: Menta + рамка окон: (не Menta) ClearLooksRe ,or (меньше)TraditioanalGreen(Tr~Ok) ,or (ещё меньше)Spidey }
+ #Доп.:
+* тема Traditioanal в openbox (выглядет так же как и стандартная OB) и в Marco(mate) выглядят по разному...
+* Пакет "mate-panel" предоставляет минимальное окружение рабочего стола. (но нрн это только панель. чёт глючила) [& wiki.archlinux.org/index.php/MATE_(Русский) ]
+
+?. Deb Mate 
+{при установке не такй же внешний вид как на моей work-vm, kek.
+- оч тормазит на виртуалке..
++ ,но понравились иконки menta(они как mate(как gnome, но чуть светлее, не прям коричнивые, чуть зелёные ), но зелёные). mate-icon-theme}
+
+?2. Попробовать Ubuntu Mate (and UbSvr+mate):
+ -> [ https://gist.github.com/Lazzlo2096/c94d7af75a44beb23f02110d9d666cc2 ]
+
+?3. Ub Unity (именить тему?)
+
+не. Kubuntu (Deb KDE?)
+{-слишком навароченный для меня со многими сложными деталями
++Иконки Breeze 
++Plasma 5 theme
++Kubuntu Theme ? }
+
+=============
+
+**brisk menu:
+*уменьшить размер панели до 24пикс
+*brisk menu (его настройка: menulibre mozo)
+
+*traditionalGreen (элем) + traditionalOk (рамка окна marco)(серый не актив, синий актив) + papirus + mate-black(курсор)
+
+*UbSvr+mate = почему то вроде виснит при начале работы или при файрфоксе
