@@ -4,6 +4,7 @@ sudo apt install papirus-icon-theme mate-themes
 # mozhet bez panel'i ?:
 #sudo apt install mate-panel mate-applet-brisk-menu
 # !!! pohodu posle etogo v xterm izmenilsa chvet fona
+# chtoto on u menya so vtorogo zapuska slomalsya(
 
 # utils:
 sudo apt install firefox pcmanfm xterm pluma
