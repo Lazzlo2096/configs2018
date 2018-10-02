@@ -8,4 +8,4 @@ lxde-core
 papirus
 mate-themes
 
-BlueMenta, papirus, Win.Border(OB):Onyx
+BlueMenta, papirus, OB.Win.Border:Onyx

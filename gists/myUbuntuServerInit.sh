@@ -17,13 +17,6 @@ sudo apt install virtualbox-guest-additions-iso
 
 =====окружение======
 
-	sudo apt-get install xterm
-	sudo apt install firefox
-	sudo apt install leafpad 
-	sudo apt install pcmanfm
-	
-	sudo apt install geany
-	
 
 {#===VIM ang GUI===
    //42  sudo apt install vim-gtk3
@@ -62,7 +55,6 @@ sudo apt install virtualbox-guest-additions-iso
 }
 
 ===IDEs===
-sudo apt install geany
 
 sudo apt install python3-qt5
 sudo apt install python3-pyqt5 pyqt5-dev-tools qtcreator
