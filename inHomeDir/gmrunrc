@@ -5,7 +5,7 @@
 # Set terminal
 Terminal = x-terminal-emulator
 TermExec = ${Terminal} -e
-AlwaysInTerm = ssh telnet ftp lynx mc vi vim pine centericq perldoc man
+AlwaysInTerm = ssh telnet ftp lynx mc vi vim pine centericq perldoc man htop
 
 # Set window geometry (except height)
 Width = 400
@@ -23,7 +23,7 @@ ShowDotFiles = 1
 
 # Timeout (in milliseconds) after which gmrun will simulate a TAB press
 # Set this to NULL if don't like this feature.
-TabTimeout = 1
+TabTimeout = 250
 
 # URL handlers
 # If the entered text is "http://www.google.com" then:
