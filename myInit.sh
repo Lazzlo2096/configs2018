@@ -16,7 +16,7 @@ yes | sudo apt-get install xorg openbox obconf obmenu &> logMyInit.txt #113MB + 
 #====installing and setting utils====
 
 ##=pcmanfm=:
-yes | sudo apt install pcmanfm &> logMyInit.txt
+yes | sudo apt install pcmanfm &> logMyInit2.txt
 sed 's/\(always_show_tabs\)=0/\1=1/' ~/.config/pcmanfm/default/pcmanfm.conf --in-place
 sed 's/\(show_hidden\)=0/\1=1/' ~/.config/pcmanfm/default/pcmanfm.conf --in-place
 
@@ -34,7 +34,7 @@ sudo cp ./inHomeDir/gmrunrc /etc/
 #=gvim=
 
 ##=and many others=:
-yes | sudo apt install firefox xterm pluma unzip &> logMyInit.txt
+yes | sudo apt install firefox xterm pluma unzip &> logMyInit3.txt
 sh "install sublime-text3.sh"
 
 
