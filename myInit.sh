@@ -1,3 +1,6 @@
+#Warning!
+#Do not run this if process dpkg is runing!!
+
 #========UbSvr + lil-mate======
 #PLEASE install ubuntu-server first, then...
 
@@ -60,7 +63,7 @@ cp ./inHomeDir/.gtkrc-2.0 ~/
 	#3.горячие клавиши
 # !!!chtoto pohodu sozdalo samo do menya file ~/.config/openbox/rc.xml
 # !!! tochno mate-panel menu perehvatyvaet Win keys...
-#mkdir ~/.config/openbox
+mkdir ~/.config/openbox
 cp ./inHomeDir/.config/openbox/rc.xml ~/.config/openbox/rc.xml
 #@depend from: gmrun, pluma;
 # Or Можно юзнуть эти GUI:

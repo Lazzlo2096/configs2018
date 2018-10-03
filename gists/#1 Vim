@@ -1,9 +1,11 @@
 ###Vim
 
-#1.чтоб в виме можно было перемещать указатель текста мышкой
 #sudo apt install neovim-qt 
 sudo apt install vim-gtk3  
 >gvim  or  >vim -g
+
+
+#1.чтоб в виме можно было перемещать указатель текста мышкой
 ? > :set mouse=a
 ( смотри репозиторий configures2018.git )
 
