@@ -7,7 +7,7 @@
 sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe restricted multiverse"
 # & https://askubuntu.com/questions/78613/how-do-i-enable-the-universe-repository-from-the-command-line
 sudo apt-get update
-yes | sudo apt-get install xorg openbox obconf obmenu #113MB + (xorg:372MB)
+yes | sudo apt-get install xorg openbox obconf obmenu &> logMyInit.txt #113MB + (xorg:372MB)
 	#xorg включает в себя: xserver-xorg, xinit
 
 #> startx
@@ -16,7 +16,7 @@ yes | sudo apt-get install xorg openbox obconf obmenu #113MB + (xorg:372MB)
 #====installing and setting utils====
 
 ##=pcmanfm=:
-yes | sudo apt install pcmanfm
+yes | sudo apt install pcmanfm &> logMyInit.txt
 sed 's/\(always_show_tabs\)=0/\1=1/' ~/.config/pcmanfm/default/pcmanfm.conf --in-place
 sed 's/\(show_hidden\)=0/\1=1/' ~/.config/pcmanfm/default/pcmanfm.conf --in-place
 
@@ -34,7 +34,7 @@ sudo cp ./inHomeDir/gmrunrc /etc/
 #=gvim=
 
 ##=and many others=:
-yes | sudo apt install firefox xterm pluma unzip
+yes | sudo apt install firefox xterm pluma unzip &> logMyInit.txt
 sh "install sublime-text3.sh"
 
 
