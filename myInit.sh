@@ -54,11 +54,24 @@ cp ./inHomeDir/.gtkrc-2.0 ~/
 # !!! pohodu posle etogo v xterm izmenilsa chvet fona
 # chtoto on u menya so vtorogo zapuska slomalsya(
 
+#lxqt десктоп ?
+
 #=======other settings======
 
-#!set defoult xterm
+#=переключатель языка=
 
-#=openbox=:
+#=set defoult xterm and others=:
+#(& afterInit.sh)
+
+#==openbox==:
+#=View=:
+#in ~/.config/openbox/rc.xml
+#<theme><name>Onyx</name> OR Clearlooks
+
+#Почеум-то с темой Raleigh глючит obconf на второй страничке, хотя она норм
+#Остаёться либо Redmond, ThinIce, Mist (Crux ,)
+#/либо c mate-theme: Traditional[Green\Ok]==Clearlooks, Menta, 
+
 #=key bindings=
 	#3.горячие клавиши
 # !!!chtoto pohodu sozdalo samo do menya file ~/.config/openbox/rc.xml
