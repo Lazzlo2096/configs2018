@@ -1,0 +1,148 @@
+sdo apt install pcmanfm # after sublime
+Чтение списков пакетов…
+Построение дерева зависимостей…
+Чтение информации о состоянии…
+Будут установлены следующие дополнительные пакеты:
+  avahi-daemon avahi-utils cups-pk-helper dbus-x11 ffmpegthumbnailer
+  galternatives gcc-8-base gconf-service gconf-service-backend gconf2
+  gconf2-common gcr gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0
+  gir1.2-gtk-3.0 gir1.2-notify-0.7 gir1.2-packagekitglib-1.0 gir1.2-pango-1.0
+  gir1.2-polkit-1.0 gir1.2-secret-1 gnome-keyring gnome-keyring-pkcs11
+  gvfs-backends gvfs-fuse i965-va-driver ippusbxd kwayland-data
+  kwayland-integration libaacs0 libappstream4 libarchive13 libart-2.0-2
+  libasound2 libasound2-data libass9 libauthen-sasl-perl libavahi-core7
+  libavahi-glib1 libavcodec57 libavfilter6 libavformat57 libavresample3
+  libavutil55 libbdplus0 libbluray2 libbonobo2-0 libbonobo2-common
+  libbonoboui2-0 libbonoboui2-common libbs2b0 libcanberra0 libcdio-cdda2
+  libcdio-paranoia2 libcdio17 libchromaprint1 libcrystalhd3 libdaemon0
+  libdata-dump-perl libdbusmenu-qt5-2 libdouble-conversion1
+  libencode-locale-perl libexif12 libffmpegthumbnailer4v5 libfftw3-double3
+  libfile-basedir-perl libfile-desktopentry-perl libfile-listing-perl
+  libfile-mimeinfo-perl libflite1 libfm-data libfm-gtk-data libfm-gtk4
+  libfm-modules libfm-qt-l10n libfm-qt3 libfm4 libfont-afm-perl libgcc1
+  libgconf-2-4 libgcr-ui-3-1 libgd3 libgdata-common libgdata22 libgl1-mesa-glx
+  libglib2.0-0 libglib2.0-bin libgme0 libgnome-2-0 libgnome-keyring-common
+  libgnome-keyring0 libgnome2-common libgnomecanvas2-0 libgnomecanvas2-common
+  libgnomeui-0 libgnomeui-common libgnomevfs2-0 libgnomevfs2-common
+  libgoa-1.0-0b libgoa-1.0-common libgomp1 libgphoto2-6 libgphoto2-l10n
+  libgphoto2-port12 libgsm1 libhtml-form-perl libhtml-format-perl
+  libhtml-parser-perl libhtml-tagset-perl libhtml-tree-perl
+  libhttp-cookies-perl libhttp-daemon-perl libhttp-date-perl
+  libhttp-message-perl libhttp-negotiate-perl libimobiledevice6
+  libio-html-perl libio-socket-ssl-perl libipc-system-simple-perl libjansson4
+  libjpeg-turbo-progs libkf5idletime5 libkf5screen-bin libkf5screen7
+  libkf5solid5 libkf5solid5-data libkf5waylandclient5 libkf5windowsystem-data
+  libkf5windowsystem5 libldb1 libltdl7 liblwp-mediatypes-perl
+  liblwp-protocol-https-perl liblxqt-l10n liblxqt0 libmailtools-perl libmng2
+  libmtp-common libmtp-runtime libmtp9 libmysofa0 libnet-http-perl
+  libnet-smtp-ssl-perl libnet-ssleay-perl libnorm1 libnss-mdns liboauth0
+  libopenjp2-7 libopenmpt0 liborbit-2-0 libpackagekit-glib2-18
+  libpam-gnome-keyring libpgm-5.2-0 libplist3 libpolkit-qt5-1-1 libpostproc54
+  libpython2.7 libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5
+  libqt5printsupport5 libqt5qml5 libqt5quick5 libqt5svg5 libqt5waylandclient5
+  libqt5waylandcompositor5 libqt5widgets5 libqt5x11extras5 libqt5xdg3
+  libqt5xdgiconloader3 libqt5xml5 librubberband2 libshine3 libsmbclient
+  libsnappy1v5 libsodium23 libsoxr0 libssh-gcrypt-4 libstdc++6 libstemmer0d
+  libswresample2 libswscale4 libtalloc2 libtdb1 libtevent0 libtimedate-perl
+  libtry-tiny-perl libupower-glib3 liburi-perl libusbmuxd4 libva-drm2
+  libva-x11-2 libva2 libvdpau1 libvorbisfile3 libwbclient0 libwebpmux3
+  libwww-perl libwww-robotrules-perl libx264-152 libx265-146 libxcb-icccm4
+  libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0
+  libxcb-xinerama0 libxcb-xkb1 libxkbcommon-x11-0 libxvidcore4 libzmq5
+  libzvbi-common libzvbi0 lximage-qt lximage-qt-l10n lxqt-config
+  lxqt-config-l10n lxqt-notificationd lxqt-notificationd-l10n lxqt-policykit
+  lxqt-policykit-l10n lxqt-powermanagement lxqt-powermanagement-l10n
+  lxqt-qtplugin lxqt-session lxqt-session-l10n lxqt-sudo lxqt-sudo-l10n
+  lxqt-system-theme lxqt-themes media-player-info mesa-va-drivers
+  mesa-vdpau-drivers miscfiles oxygen-icon-theme p11-kit p11-kit-modules
+  packagekit packagekit-tools pcmanfm-qt pcmanfm-qt-l10n perl-openssl-defaults
+  pinentry-gnome3 python-talloc python3-cairo python3-cups python3-cupshelpers
+  python3-xdg qlipper qps qt5-gtk-platformtheme qt5-image-formats-plugins
+  qt5-style-plugins qttranslations5-l10n qtwayland5 samba-libs
+  sound-theme-freedesktop system-config-printer system-config-printer-common
+  system-config-printer-udev upower usbmuxd va-driver-all vdpau-driver-all
+  xscreensaver xscreensaver-data
+Предлагаемые пакеты:
+  avahi-autoipd gconf-defaults-service bluez-obexd samba-common
+  i965-va-driver-shaders lrzip libasound2-plugins alsa-utils
+  libdigest-hmac-perl libgssapi-perl libbluray-bdj libbonobo2-bin
+  libcanberra-gtk0 libcanberra-pulse firmware-crystalhd libfftw3-bin
+  libfftw3-dev libfm-tools nautilus-actions libgd-tools desktop-base
+  libgnomevfs2-bin libgnomevfs2-extra gamin | fam gnome-mime-data gphoto2
+  libusbmuxd-tools libcrypt-ssleay-perl avahi-autoipd | zeroconf
+  qt5-qmltooling-plugins libauthen-ntlm-perl adwaita-qt faenza-icon-theme
+  gnome-themes-standard gparted | partitionmanager cmst
+  | network-manager-gnome lxqt | lxqt-core lxappearance obconf-qt synaptic
+  appstream cdtool pinentry-doc gnome-software python3-smbc libvdpau-va-gl1
+  nvidia-vdpau-driver nvidia-legacy-340xx-vdpau-driver xfishtank xdaliclock
+  xscreensaver-data-extra xscreensaver-gl xscreensaver-gl-extra fortune
+  www-browser qcam | streamer gdm3 | kdm-gdmcompat
+Рекомендуемые пакеты:
+  disk-manager perl5
+НОВЫЕ пакеты, которые будут установлены:
+  avahi-daemon avahi-utils cups-pk-helper dbus-x11 ffmpegthumbnailer
+  galternatives gconf-service gconf-service-backend gconf2 gconf2-common gcr
+  gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0 gir1.2-gtk-3.0
+  gir1.2-notify-0.7 gir1.2-packagekitglib-1.0 gir1.2-pango-1.0
+  gir1.2-polkit-1.0 gir1.2-secret-1 gnome-keyring gnome-keyring-pkcs11
+  gvfs-backends gvfs-fuse i965-va-driver ippusbxd kwayland-data
+  kwayland-integration libaacs0 libappstream4 libarchive13 libart-2.0-2
+  libasound2 libasound2-data libass9 libauthen-sasl-perl libavahi-core7
+  libavahi-glib1 libavcodec57 libavfilter6 libavformat57 libavresample3
+  libavutil55 libbdplus0 libbluray2 libbonobo2-0 libbonobo2-common
+  libbonoboui2-0 libbonoboui2-common libbs2b0 libcanberra0 libcdio-cdda2
+  libcdio-paranoia2 libcdio17 libchromaprint1 libcrystalhd3 libdaemon0
+  libdata-dump-perl libdbusmenu-qt5-2 libdouble-conversion1
+  libencode-locale-perl libexif12 libffmpegthumbnailer4v5 libfftw3-double3
+  libfile-basedir-perl libfile-desktopentry-perl libfile-listing-perl
+  libfile-mimeinfo-perl libflite1 libfm-data libfm-gtk-data libfm-gtk4
+  libfm-modules libfm-qt-l10n libfm-qt3 libfm4 libfont-afm-perl libgconf-2-4
+  libgcr-ui-3-1 libgd3 libgdata-common libgdata22 libgl1-mesa-glx
+  libglib2.0-bin libgme0 libgnome-2-0 libgnome-keyring-common
+  libgnome-keyring0 libgnome2-common libgnomecanvas2-0 libgnomecanvas2-common
+  libgnomeui-0 libgnomeui-common libgnomevfs2-0 libgnomevfs2-common
+  libgoa-1.0-0b libgoa-1.0-common libgomp1 libgphoto2-6 libgphoto2-l10n
+  libgphoto2-port12 libgsm1 libhtml-form-perl libhtml-format-perl
+  libhtml-parser-perl libhtml-tagset-perl libhtml-tree-perl
+  libhttp-cookies-perl libhttp-daemon-perl libhttp-date-perl
+  libhttp-message-perl libhttp-negotiate-perl libimobiledevice6
+  libio-html-perl libio-socket-ssl-perl libipc-system-simple-perl libjansson4
+  libjpeg-turbo-progs libkf5idletime5 libkf5screen-bin libkf5screen7
+  libkf5solid5 libkf5solid5-data libkf5waylandclient5 libkf5windowsystem-data
+  libkf5windowsystem5 libldb1 libltdl7 liblwp-mediatypes-perl
+  liblwp-protocol-https-perl liblxqt-l10n liblxqt0 libmailtools-perl libmng2
+  libmtp-common libmtp-runtime libmtp9 libmysofa0 libnet-http-perl
+  libnet-smtp-ssl-perl libnet-ssleay-perl libnorm1 libnss-mdns liboauth0
+  libopenjp2-7 libopenmpt0 liborbit-2-0 libpackagekit-glib2-18
+  libpam-gnome-keyring libpgm-5.2-0 libplist3 libpolkit-qt5-1-1 libpostproc54
+  libpython2.7 libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5
+  libqt5printsupport5 libqt5qml5 libqt5quick5 libqt5svg5 libqt5waylandclient5
+  libqt5waylandcompositor5 libqt5widgets5 libqt5x11extras5 libqt5xdg3
+  libqt5xdgiconloader3 libqt5xml5 librubberband2 libshine3 libsmbclient
+  libsnappy1v5 libsodium23 libsoxr0 libssh-gcrypt-4 libstemmer0d
+  libswresample2 libswscale4 libtalloc2 libtdb1 libtevent0 libtimedate-perl
+  libtry-tiny-perl libupower-glib3 liburi-perl libusbmuxd4 libva-drm2
+  libva-x11-2 libva2 libvdpau1 libvorbisfile3 libwbclient0 libwebpmux3
+  libwww-perl libwww-robotrules-perl libx264-152 libx265-146 libxcb-icccm4
+  libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0
+  libxcb-xinerama0 libxcb-xkb1 libxkbcommon-x11-0 libxvidcore4 libzmq5
+  libzvbi-common libzvbi0 lximage-qt lximage-qt-l10n lxqt-config
+  lxqt-config-l10n lxqt-notificationd lxqt-notificationd-l10n lxqt-policykit
+  lxqt-policykit-l10n lxqt-powermanagement lxqt-powermanagement-l10n
+  lxqt-qtplugin lxqt-session lxqt-session-l10n lxqt-sudo lxqt-sudo-l10n
+  lxqt-system-theme lxqt-themes media-player-info mesa-va-drivers
+  mesa-vdpau-drivers miscfiles oxygen-icon-theme p11-kit p11-kit-modules
+  packagekit packagekit-tools pcmanfm pcmanfm-qt pcmanfm-qt-l10n
+  perl-openssl-defaults pinentry-gnome3 python-talloc python3-cairo
+  python3-cups python3-cupshelpers python3-xdg qlipper qps
+  qt5-gtk-platformtheme qt5-image-formats-plugins qt5-style-plugins
+  qttranslations5-l10n qtwayland5 samba-libs sound-theme-freedesktop
+  system-config-printer system-config-printer-common
+  system-config-printer-udev upower usbmuxd va-driver-all vdpau-driver-all
+  xscreensaver xscreensaver-data
+Пакеты, которые будут обновлены:
+  gcc-8-base libgcc1 libglib2.0-0 libstdc++6
+Обновлено 4 пакетов, установлено 264 новых пакетов, для удаления отмечено 0 пакетов, и 50 пакетов не обновлено.
+Необходимо скачать 101 MB/102 MB архивов.
+После данной операции, объём занятого дискового пространства возрастёт на 334 MB.
+Хотите продолжить? [Д/н] 
