@@ -1,0 +1,5 @@
+pcmanfm &
+pcmanfm --desktop &
+
+#(& myUbuntuServerInit.sh)
+setxkbmap -layout "us,ru(winkeys)" -model "pc105" -option "grp:alt_shift_toggle,grp_led:scroll" &

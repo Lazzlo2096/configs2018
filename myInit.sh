@@ -20,8 +20,10 @@ yes | sudo apt-get install xorg openbox obconf obmenu #113MB + (xorg:372MB)
 
 ##=pcmanfm=:
 yes | sudo apt install pcmanfm
-sed 's/\(always_show_tabs\)=0/\1=1/' ~/.config/pcmanfm/default/pcmanfm.conf --in-place
-sed 's/\(show_hidden\)=0/\1=1/' ~/.config/pcmanfm/default/pcmanfm.conf --in-place
+#sed 's/\(always_show_tabs\)=0/\1=1/' ~/.config/pcmanfm/default/pcmanfm.conf --in-place
+#sed 's/\(show_hidden\)=0/\1=1/' ~/.config/pcmanfm/default/pcmanfm.conf --in-place
+#Видимо конфиг создаёться когда первый раз запускаем его
+cp -r ./inHomeDir/.config/pcmanfm ~/.config/
 
 ##=gmrun=:
 #5. вызов приложения по имени по набору, как в i3 awesome?
@@ -58,7 +60,11 @@ cp ./inHomeDir/.gtkrc-2.0 ~/
 
 #=======other settings======
 
+#Process this:
+#	not placed/WallPapers/*
+
 #=переключатель языка=
+#look in .config/openbox/autostart
 
 #=set defoult xterm and others=:
 #(& afterInit.sh)
@@ -76,8 +82,13 @@ cp ./inHomeDir/.gtkrc-2.0 ~/
 	#3.горячие клавиши
 # !!!chtoto pohodu sozdalo samo do menya file ~/.config/openbox/rc.xml
 # !!! tochno mate-panel menu perehvatyvaet Win keys...
-mkdir ~/.config/openbox
-cp ./inHomeDir/.config/openbox/rc.xml ~/.config/openbox/rc.xml
+
+cp -r ./inHomeDir/.config/openbox ~/.config/
+#{
+#mkdir ~/.config/openbox
+#cp ./inHomeDir/.config/openbox/* ~/.config/openbox/ 
+#}
+
 #@depend from: gmrun, pluma;
 # Or Можно юзнуть эти GUI:
 #https://github.com/nsf/obkey
