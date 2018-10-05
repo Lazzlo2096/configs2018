@@ -32,7 +32,7 @@ cp -r ./inHomeDir/.config/pcmanfm ~/.config/
 #[ https://wiki.archlinux.org/index.php/Gmrun ]
 #[ https://www.linuxsecrets.com/archlinux-wiki/wiki.archlinux.org/index.php/Gmrun.html ]
 sudo apt install gmrun
-sudo cp ./inHomeDir/gmrunrc /etc/
+#sudo cp ./inHomeDir/.gmrunrc ~/
 # or manualy in config files which is in /etc/gmrunrc or link in /usr/share/gmrun/gmrun
 #echo "URL_g = x-www-browser 'https://www.google.com/search?q=%s'" >> /etc/gmrunrc
 
@@ -80,19 +80,18 @@ cp ./inHomeDir/.gtkrc-2.0 ~/
 
 #=key bindings=
 	#3.горячие клавиши
+	#and Autostart
 # !!!chtoto pohodu sozdalo samo do menya file ~/.config/openbox/rc.xml
 # !!! tochno mate-panel menu perehvatyvaet Win keys...
-
 cp -r ./inHomeDir/.config/openbox ~/.config/
 #{
 #mkdir ~/.config/openbox
 #cp ./inHomeDir/.config/openbox/* ~/.config/openbox/ 
 #}
-
 #@depend from: gmrun, pluma;
 # Or Можно юзнуть эти GUI:
 #https://github.com/nsf/obkey
 #https://github.com/stevenhoneyman/obkey (fork от nsf)
 #cd /opt/; sudo git clone https://github.com/stevenhoneyman/obkey.git;
-#ln /opt/obkey/obkey /usr/bin -s; #or just install it in menu with obconf
+#sudo ln /opt/obkey/obkey /usr/bin -s; #or just install it in menu with obconf
 
