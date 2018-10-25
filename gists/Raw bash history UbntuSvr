@@ -1,4 +1,7 @@
-    1  sudo apt install pcmanfm
+Это то что переросло в myUbuntuServerInit.sh
+И в принципе уже не нужно
+
+	1  sudo apt install pcmanfm
     2  shutdown -h
     3  shutdown -c
     4  shutdown --help
