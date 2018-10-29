@@ -29,6 +29,7 @@ $gmrun, не работают pgDonw и так далее калвиши для 
 и чтоб gmrun закрывался, если потерял фокус
 
 
+==============================================================================
 
 ##Попробовать Marco отдельно (а затем и Metacity): 
  1. Как мне установить Marco?
@@ -48,7 +49,6 @@ openbox
 3.В меню опенбокса появляеться подменю Debian с русскими названиями (Xocloc, или awesome) (от awesome, marco или Metacity)
 
 
-
 ##легковестные дистрибутивы:
 * SPARKYLINUX основан на тестовой ветке Debian, и поддерживает несколько окружений рабочего стола, в том числе LXDE, OpenBox, JWM, e17, MATE, Razor-Qt, Cli и Gnome-Razor-Qt.
 * TINY CORE поставляется c окружением рабочего стола FLTK/FKWM и BusyBox
@@ -65,12 +65,20 @@ openbox
 * тема Traditioanal в openbox (выглядет так же как и стандартная OB) и в Marco(mate) выглядят по разному...
 * Пакет "mate-panel" предоставляет минимальное окружение рабочего стола. (но нрн это только панель. чёт глючила) [& wiki.archlinux.org/index.php/MATE_(Русский) ]
 
+**brisk menu:
+*уменьшить размер панели до 24пикс
+*brisk menu (его настройка: menulibre mozo)
+-
+*traditionalGreen (элем) + traditionalOk (рамка окна marco)(серый не актив, синий актив) + papirus + mate-black(курсор)
+
+** UbSvr+mate = почему то вроде виснит при начале работы или при файрфоксе
+
 ?. Deb Mate 
 {при установке не такй же внешний вид как на моей work-vm, kek.
 - оч тормазит на виртуалке..
 + ,но понравились иконки menta(они как mate(как gnome, но чуть светлее, не прям коричнивые, чуть зелёные ), но зелёные). mate-icon-theme}
 
-?2. Попробовать Ubuntu Mate (and UbSvr+mate):
+?2. Попробовать Ubuntu Mate (не UbSvr+mate):
  -> [ https://gist.github.com/Lazzlo2096/c94d7af75a44beb23f02110d9d666cc2 ]
 
 ?3. Ub Unity (именить тему?)
@@ -82,11 +90,3 @@ openbox
 +Kubuntu Theme ? }
 
 =============
-
-**brisk menu:
-*уменьшить размер панели до 24пикс
-*brisk menu (его настройка: menulibre mozo)
-
-*traditionalGreen (элем) + traditionalOk (рамка окна marco)(серый не актив, синий актив) + papirus + mate-black(курсор)
-
-*UbSvr+mate = почему то вроде виснит при начале работы или при файрфоксе
