@@ -1,4 +1,4 @@
-#вродь хуже, чем UbSvr+mate
+#UbSvr+lxde вродь хуже, чем UbSvr+mate
 
 lxde
 lxde-common

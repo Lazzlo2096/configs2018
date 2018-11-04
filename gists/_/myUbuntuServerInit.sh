@@ -1,11 +1,11 @@
 {#Если этого не сделал установочник
 #=====настройка времени======
 timedatectl 
-timedatectl set-timezone +3
+#timedatectl set-timezone +3
 timedatectl set-timezone MSK
 
 #=====Язык рус=======
-link1*
+link-1*
 setxkbmap -layout "us,ru(winkeys)" -model "pc105" -option "grp:alt_shift_toggle,grp_led:scroll" &
 }
 
@@ -73,7 +73,7 @@ http://openbox.org/wiki/Help:Installing#Dependencies_in_Ubuntu_and_Debian
 https://habr.com/post/344298/
 ?? tint2 conky lightdm gdebi geany xarchiver
 
-link1: https://help.ubuntu.ru/wiki/openbox
+link-1: https://help.ubuntu.ru/wiki/openbox
 
 http://openbox.org/wiki/Help:Autostart
 
