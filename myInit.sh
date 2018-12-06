@@ -7,6 +7,7 @@
 #======Иксы============
 #в версии Ubuntu 18.04.1 LTS bionic - вроде работало ( lsb_release -a )
 #но при новой переустновке (видимо забыл выбрать соурс лист( /etc/apt/source.list ) ) нужно добавить:
+## MUST BE:  restricted main universe multiverse !!!!
 sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe restricted multiverse"
 # & https://askubuntu.com/questions/78613/how-do-i-enable-the-universe-repository-from-the-command-line
 sudo apt-get update
