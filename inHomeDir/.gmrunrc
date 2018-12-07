@@ -41,7 +41,7 @@ URL_readme = ${TermExec} 'less /usr/doc/%s/README'
 URL_info = ${TermExec} 'info %s'
 URL_sh = sh -c '%s'
 #customs:
-URL_g = x-www-browser 'https://www.google.com/search?q=%s'
+#URL_g = x-www-browser 'https://www.google.com/search?q=%s'
 
 # extension handlers
 EXT:doc,rtf = AbiWord %s

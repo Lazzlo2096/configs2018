@@ -34,7 +34,7 @@ cp -r ./inHomeDir/.config/pcmanfm ~/.config/
 #[ https://wiki.archlinux.org/index.php/Gmrun ]
 #[ https://www.linuxsecrets.com/archlinux-wiki/wiki.archlinux.org/index.php/Gmrun.html ]
 sudo apt install gmrun
-#sudo cp ./inHomeDir/.gmrunrc ~/
+sudo cp ./inHomeDir/.gmrunrc ~/
 # or manualy in config files which is in /etc/gmrunrc or link in /usr/share/gmrun/gmrun
 #echo "URL_g = x-www-browser 'https://www.google.com/search?q=%s'" >> /etc/gmrunrc
 
