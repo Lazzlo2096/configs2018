@@ -9,3 +9,5 @@ papirus
 mate-themes
 
 BlueMenta, papirus, OB.Win.Border:Onyx
+
+#lubuntu-18.10-desktop-amd64.iso имеет большие пустые пробелы в pcmanfm, отстой.

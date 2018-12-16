@@ -57,6 +57,7 @@ cp ./inHomeDir/.gtkrc-2.0 ~/
 #yes | sudo apt install mate-panel mate-applet-brisk-menu
 # !!! pohodu posle etogo v xterm izmenilsa chvet fona
 # chtoto on u menya so vtorogo zapuska slomalsya(
+#yes | sudo apt install lxpanel
 
 #lxqt десктоп ?
 
@@ -97,3 +98,10 @@ cp -r ./inHomeDir/.config/openbox ~/.config/
 #cd /opt/; sudo git clone https://github.com/stevenhoneyman/obkey.git;
 #sudo ln /opt/obkey/obkey /usr/bin -s; #or just install it in menu with obconf
 
+#============================================
+#With
+#deb http://archive.ubuntu.com/ubuntu bionic universe main restricted multiverse
+#deb http://archive.ubuntu.com/ubuntu bionic-security universe main restricted multiverse
+## deb-src http://archive.ubuntu.com/ubuntu bionic universe restricted multiverse main
+#deb http://archive.ubuntu.com/ubuntu bionic-updates universe main restricted multiverse
+#sudo apt-get install gitk
