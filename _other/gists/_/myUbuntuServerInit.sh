@@ -9,9 +9,6 @@ link-1*
 setxkbmap -layout "us,ru(winkeys)" -model "pc105" -option "grp:alt_shift_toggle,grp_led:scroll" &
 }
 
-=====Если с виртуалки==========
-sudo apt install virtualbox-guest-additions-iso
-#Чёт нихуя буфер не работает((
 
 
 

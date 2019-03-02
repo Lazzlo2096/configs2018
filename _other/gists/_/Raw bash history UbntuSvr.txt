@@ -113,7 +113,6 @@
   110  vim
   111  ls
   112  startx
-  113  sudo apt install virtualbox-guest-additions-iso 
   114  reboot
   115  ls
   116  where startx

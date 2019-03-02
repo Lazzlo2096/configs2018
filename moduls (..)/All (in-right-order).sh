@@ -6,8 +6,9 @@ sudo apt-get update
 #=1rst============================
 bash pcmanfm.sh
 bash gmrun.sh
-bash openbox.sh
-	bash papirus-icon-theme.sh #install papirus-icons and configure openbox
+#bash openbox.sh # not allways I will use openbox (mate for example)
+	#bash papirus-icon-theme.sh #install papirus-icons and configure openbox
+bash "inside VirtualBox.sh"
 
 bash git.sh
 bash "install sublime-text3.sh"
