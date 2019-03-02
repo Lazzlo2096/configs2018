@@ -1,8 +1,7 @@
- git config --global user.email "lazzlo2096@yandex.ru"
- git config --global user.name "lazzlo2096"
 
 #==manualy===:
 
+#=set defoult xterm and others=:
 #(& gistfile1_2.txt)#программы по дефолту
 sudo update-alternatives --config x-terminal-emulator
 
