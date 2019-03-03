@@ -14,12 +14,18 @@ bash git.sh
 bash "install sublime-text3.sh"
 bash gnu.sh
 	bash "install eclipse.sh"
+#bash "install elixir.sh"
+#bash "install scala.sh"
 
 #=================================
 
 #bash "manualy after inst.sh"
 
 #== and many others usefull apps==:
-	yes | sudo apt install firefox xterm pluma unzip
+	yes | sudo apt install xterm #pluma firefox
 
 
+#for archives:
+#engrampa #archive manager
+#unzip
+#unrar #for .rar
