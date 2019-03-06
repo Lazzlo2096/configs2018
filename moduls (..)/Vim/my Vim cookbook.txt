@@ -1,0 +1,6 @@
+
+//https://www.sourceallies.com/2009/11/vim-splits-an-introduction/
+:new file name // :n filename // непонятно почему отличается лол
+// но split разделяеться горизонтально, как сделать теперь вертикальное разделение? 
+// Можно сделать сразу вертикально:
+:vsp filename	//Open filename in vertical split
