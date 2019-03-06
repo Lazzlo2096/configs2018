@@ -1,6 +1,3 @@
-#1. Vim (ide)
- -> https://gist.github.com/Lazzlo2096/edda2d7dc48f78c174b8850e2e127228
-
 #2. Внешний Вид только (WM/DM/DE, окружение..)
  -> https://gist.github.com/Lazzlo2096/6b0f8c4afa30cd9887b02cd918924b01
 

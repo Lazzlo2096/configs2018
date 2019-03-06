@@ -1,7 +1,5 @@
-
 #=0rst============================
 sudo apt-get update
-
 
 #=1rst============================
 bash pcmanfm.sh
@@ -10,12 +8,20 @@ bash gmrun.sh
 	#bash papirus-icon-theme.sh #install papirus-icons and configure openbox
 bash "inside VirtualBox.sh"
 
-bash git.sh
-bash "install sublime-text3.sh"
+#-----------
 bash gnu.sh
-	bash "install eclipse.sh"
+bash git.sh
+
 #bash "install elixir.sh"
 #bash "install scala.sh"
+#-------------
+
+#---IDEs---
+bash "install sublime-text3.sh"
+#(см выше) #bash gnu.sh
+	#bash "install eclipse.sh"
+bash "install cool vim as ide.sh"
+#----------
 
 #=================================
 
@@ -25,7 +31,13 @@ bash gnu.sh
 	yes | sudo apt install xterm #pluma firefox
 
 
-#for archives:
+#--for archives:-------
 #engrampa #archive manager
 #unzip
 #unrar #for .rar
+#--------------------
+
+#--------------------
+#https://habr.com/post/344298/
+#?? tint2 conky lightdm gdebi geany xarchiver
+#--------------------
