@@ -20,7 +20,7 @@ bash git.sh
 bash "install sublime-text3.sh"
 #(см выше) #bash gnu.sh
 	#bash "install eclipse.sh"
-bash "install cool vim as ide.sh"
+bash "/Vim/install cool vim as ide.sh"
 #----------
 
 #=================================
@@ -40,4 +40,7 @@ bash "install cool vim as ide.sh"
 #--------------------
 #https://habr.com/post/344298/
 #?? tint2 conky lightdm gdebi geany xarchiver
+
+#rxvt-unicode
+#ack (vs gerp)
 #--------------------

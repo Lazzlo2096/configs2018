@@ -1,0 +1,25 @@
+http://ubuntovod.ru/instructions/ubuntu-rpm.html
+https://stackoverflow.com/questions/1143796/remove-a-file-from-a-git-repository-without-deleting-it-from-the-local-filesyste/1143800#1143800
+
+https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux/16957078#16957078
+
+# https://stackoverflow.com/a/12578564
+# apt search boost
+
+# https://askubuntu.com/questions/17823/how-to-list-all-installed-packages
+
+
+
+
+#https://stackoverflow.com/questions/21746654/reload-xresources-without-restarting-the-xterm
+#This will reload the .Xresources:
+xrdb ~/.Xresources
+
+grep -iRI "someText" ./
+
+
+#========== sed рецепты================
+sed -e "s/:/\n/g"
+
+echo "qwer:234" | sed -e 's/^\(.*\):.*$/\1/'	Обрезать строку до первого разделителя?
+sed -i file	изменить этот файл

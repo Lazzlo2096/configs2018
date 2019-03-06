@@ -1,0 +1,12 @@
+# когда я начал юзать gvim:
+
+:colorscheme evening desert industry pablo slate
+	morning
+
+===темы_forks:
+https://github.com/crusoexia/vim-monokai
+https://github.com/sickill/vim-monokai
+https://github.com/tomasr/molokai
+...
+
+put it in C:\Program Files (x86)\Vim\vimfiles\colors

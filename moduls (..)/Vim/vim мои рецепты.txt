@@ -1,0 +1,51 @@
+	vim:
+
+dd удалить строку
+
+выделить и стереть и перейти в режим редактирования = v; s
+
+http://vim.wikia.com/wiki/Search_and_replace
+:$s/foo/bar/g
+
+
+??? SHIFT+U - undo u
+??? как написать один и тот же текст с такойже позиции на следующих внизу строчках?? ctrl+v, shift+i, do..., esc;
+??? Вставка из буфера компа
+??? как настроить так чтобы он не переносил длинные строки
+	??? почему он переносит мои коменты при печатании?
+??? как в сублим Шире номер строки
+
+
+
+http://vim.wikia.com/wiki/Search_and_replace_the_word_under_the_cursor
+shift+8 = Press * to search for the next occurrence.
+как выключить поиск - выделение? :noh
+
+https://stackoverflow.com/questions/3431184/highlight-all-occurrence-of-a-selected-word
+:set hlsearch
+:nohlsearch or :noh
+
+
+http://vim.wikia.com/wiki/Shifting_blocks_visually
+
+
+коментирование строк
+https://stackoverflow.com/questions/1676632/whats-a-quick-way-to-comment-uncomment-lines-in-vim/1676690#1676690
+https://stackoverflow.com/questions/426896/vim-ctrl-v-conflict-with-windows-paste
+
+удалить блок кода
+shift+v d
+
+удвоить строку
+https://stackoverflow.com/questions/73319/duplicate-a-whole-line-in-vim
+:t. will duplicate the line
+ИЛИ
+	yy or Y to copy the line 
+or 
+	dd to delete (cutting) the line
+
+then
+	p to paste the copied or deleted text after the current line 
+or 
+	P to paste the copied or deleted text before the current line
+
