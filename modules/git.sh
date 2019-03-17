@@ -3,7 +3,9 @@ sudo apt-get install git gitk
 git config --global user.email "lazzlo2096@yandex.ru"
 git config --global user.name "lazzlo2096"
 
-# https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git
+# https://help.github.com/en/articles/caching-your-github-password-in-git
+git config --global credential.helper cache # Set git to use the credential memory cache
+git config --global credential.helper 'cache --timeout=3600' # Set the cache to timeout after 1 hour (setting is in seconds)
 
 ##=========================
 # https://habrahabr.ru/post/74839/

@@ -4,6 +4,7 @@ x-www-browser "https://www.google.com/chrome/"
 
 #=0rst============================
 
+#for language and layout settings see the "inHomeDir/.xsessionrc" file
 
 #=1rst============================
 bash pcmanfm.sh
