@@ -1,9 +1,15 @@
+#=from internet===================
+x-www-browser "https://www.google.com/chrome/"
+
+
 #=0rst============================
-sudo apt-get update
+
 
 #=1rst============================
 bash pcmanfm.sh
-bash gmrun.sh
+bash "icons, fonts and etc.sh"
+
+#bash gmrun.sh #only for mate
 #bash openbox.sh # not allways I will use openbox (mate for example)
 	#bash papirus-icon-theme.sh #install papirus-icons and configure openbox
 bash "inside VirtualBox.sh"
@@ -20,7 +26,7 @@ bash git.sh
 bash "install sublime-text3.sh"
 #(см выше) #bash gnu.sh
 	#bash "install eclipse.sh"
-bash "/Vim/install cool vim as ide.sh"
+bash "./Vim/install cool vim as ide.sh"
 #----------
 
 #=================================
@@ -28,15 +34,7 @@ bash "/Vim/install cool vim as ide.sh"
 #bash "manualy after inst.sh"
 
 #== and many others usefull apps==:
-	yes | sudo apt install xterm #pluma firefox
-
-
-#--for archives:-------
-#engrampa #archive manager
-#unzip
-#unrar #for .rar
-#--------------------
-
+#yes | sudo apt install xterm #pluma firefox
 #--------------------
 #https://habr.com/post/344298/
 #?? tint2 conky lightdm gdebi geany xarchiver
@@ -44,5 +42,12 @@ bash "/Vim/install cool vim as ide.sh"
 #rxvt-unicode
 #ack (vs gerp)
 #--------------------
+
+#--for archives:-------
+#engrampa #This is archive manager
+#unzip
+#unrar #for .rar
+#--------------------
+
 
 # AND SEE /inHomeDir/.xsessionrc
