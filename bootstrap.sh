@@ -11,4 +11,4 @@ cd ~/Documents/sandbox/configs2018
 
 echo "Then just do 'sh -x init.sh' "
 #sh -x init.sh
-
+#sh -x onlyForMateInit.sh
