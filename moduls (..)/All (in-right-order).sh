@@ -44,3 +44,5 @@ bash "/Vim/install cool vim as ide.sh"
 #rxvt-unicode
 #ack (vs gerp)
 #--------------------
+
+# AND SEE /inHomeDir/.xsessionrc
