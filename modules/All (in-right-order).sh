@@ -17,6 +17,7 @@ bash "inside VirtualBox.sh"
 
 #-----------
 bash gnu.sh
+bash haskell.sh
 bash git.sh
 
 #bash "install elixir.sh"
