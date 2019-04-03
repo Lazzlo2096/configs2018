@@ -3,9 +3,13 @@
 
 
 # vim-gtk -> vim-common vim-runtime
-sudo apt install vim-gtk
+yes | sudo apt install vim-gtk
+
 # gvim  #or  >vim -g # чтобы запустить
-# *Почему-то на xubuntu vim-gtk нормален, а vim-gtk3 уродливые гиганские значки..
+# *Почему-то (на xubuntu) vim-gtk нормален, а vim-gtk3 уродливые гиганские значки..
+
+cp ./Vim/inHomeDir/.vim ~/ -r
+cp ./Vim/inHomeDir/.vimrc ~/
 
 #===VIM ang GUI===----------------------------
    # sudo apt install vim-gtk3

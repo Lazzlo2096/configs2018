@@ -1,3 +1,7 @@
+#=TODO===================
+
+#1) Сделать ПЦменФм по умолчанию
+
 #=from internet===================
 x-www-browser "https://www.google.com/chrome/"
 
@@ -9,6 +13,7 @@ x-www-browser "https://www.google.com/chrome/"
 #=1rst============================
 bash pcmanfm.sh
 bash "icons, fonts and etc.sh"
+
 
 #bash gmrun.sh #only for mate
 #bash openbox.sh # not allways I will use openbox (mate for example)
@@ -25,13 +30,16 @@ bash git.sh
 #-------------
 
 #---IDEs---
-bash "install sublime-text3.sh"
+bash "install sublime-text3.sh" #почему то с ПЦМэнФМ он работает не верно :(
 #(см выше) #bash gnu.sh
 	#bash "install eclipse.sh"
-bash "./Vim/install cool vim as ide.sh"
+bash "./Vim/install cool vim as ide.sh" # COMPLITE THIS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #----------
 
+#=2nd=============================
+#sh onlyForMateInit.sh
 #=================================
+
 
 #bash "manualy after inst.sh"
 
