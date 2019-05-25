@@ -13,7 +13,8 @@ cd ~/Documents/sandbox
 git clone https://github.com/Lazzlo2096/configs2018.git
 cd ~/Documents/sandbox/configs2018 #on tut ne ostajotsya
 
-# проверить установлн ли xorg, если нет, то значит это arch или ubServer.
+# проверить установлн ли xorg пакет, если нет, то значит это arch или ubServer.
+  # https://stackoverflow.com/questions/1298066/check-if-an-apt-get-package-is-installed-and-then-install-it-if-its-not-on-linu
 # предложить по быстрому установить
 
 echo "Then just do 'sh -x init.sh' "
