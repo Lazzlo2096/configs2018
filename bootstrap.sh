@@ -5,12 +5,13 @@
 #Or just do 'sh -x ./bootstrap.sh'
 
 sudo apt update
-yes | sudo apt install git
+
+yes | sudo apt install git #mazhmo ispolzovat modul
 
 mkdir ~/Documents/sandbox
 cd ~/Documents/sandbox
 git clone https://github.com/Lazzlo2096/configs2018.git
-cd ~/Documents/sandbox/configs2018
+cd ~/Documents/sandbox/configs2018 #on tut ne ostajotsya
 
 # проверить установлн ли xorg, если нет, то значит это arch или ubServer.
 # предложить по быстрому установить
