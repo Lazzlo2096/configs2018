@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# landscape - linux security package manager?
 # Esli ti zaxotel minimalnogo okruzhenija - BEZ NASTROJEK!!!
 
 yes | sudo apt install xorg
