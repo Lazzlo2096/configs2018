@@ -9,6 +9,9 @@ cd ~/Documents/sandbox
 git clone https://github.com/Lazzlo2096/configs2018.git
 cd ~/Documents/sandbox/configs2018
 
+# проверить установлн ли xorg, если нет, то значит это arch или ubServer.
+# предложить по быстрому установить
+
 echo "Then just do 'sh -x init.sh' "
 #sh -x init.sh
 #sh -x onlyForMateInit.sh
