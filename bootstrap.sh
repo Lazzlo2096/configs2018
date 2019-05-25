@@ -1,3 +1,4 @@
+#!/bin/bash
 # wget http://bit.ly/LazzlosConfig2018 -O - | sh -x
 # wget https://raw.githubusercontent.com/Lazzlo2096/configs2018/master/bootstrap.sh -O - | sh -x
 
@@ -17,3 +18,5 @@ cd ~/Documents/sandbox/configs2018
 echo "Then just do 'sh -x init.sh' "
 #sh -x init.sh
 #sh -x onlyForMateInit.sh
+
+#del this file
