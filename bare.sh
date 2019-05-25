@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# landscape - linux security package manager?
+# landscape - linux security package manager? # https://landscape.canonical.com/
 # Esli ti zaxotel minimalnogo okruzhenija - BEZ NASTROJEK!!!
 
 yes | sudo apt install xorg
