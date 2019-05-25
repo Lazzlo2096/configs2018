@@ -1,4 +1,6 @@
-#
+# wget http://bit.ly/LazzlosConfig2018 -O - | sh -x
+# wget https://raw.githubusercontent.com/Lazzlo2096/configs2018/master/bootstrap.sh -O - | sh -x
+
 #Or just do 'sh -x ./bootstrap.sh'
 
 sudo apt update
