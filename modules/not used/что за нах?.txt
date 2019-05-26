@@ -1,0 +1,3 @@
+snap install htop 
+------------------
+~/.bashrc - 46 строка
