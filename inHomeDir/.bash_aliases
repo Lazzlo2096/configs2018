@@ -1,6 +1,9 @@
-alias chal='nano ~/.bash_aliases'
-alias chalv='gvim ~/.bash_aliases'
-alias chalp='pluma ~/.bash_aliases'
+#meta-aliases
+alias ch_alias_nano='nano ~/.bash_aliases'
+alias ch_alias_vim='gvim ~/.bash_aliases'
+alias ch_alias='pluma ~/.bash_aliases'
+
+alias diff='diff --color'
 
 #find
 alias fn='find ./ -iname'
@@ -15,3 +18,22 @@ alias gl='git log'
 alias gd='git diff'
 alias gdh='git diff HEAD'
 alias gk='gitk --all &'
+alias gch='git checkout'
+
+
+# ================================================
+alias ..='cd ../'
+alias .2='cd ../../' # и так до бесконечности by макросом... или хз # можно вызывать ф-цию типа "f(2)","f 2" или ".. 2"
+#alias rm= # поставить безопастные загрушки на rm и dd 
+
+#-----meta aliases------
+#концепт: #alias ch_al='gvim ~/.bash_aliases; test_collisions_in ~/.bash_aliases;' # or f.e. check function _check_al() - я собираюсь писать её на bash.. # -> "утилитарный подход"!!
+#alias add_alias='echo "alias $1='$2'" >> ~/.bash_aliases;'
+add_alias() { # https://stackoverflow.com/questions/7131670/make-a-bash-alias-that-takes-a-parameter
+    echo "alias $1='$2'" >> ~/.bash_aliases;
+}
+#-- meta meta управление ос --
+# Алиас для быстрого добавения\изменения алиасов (в кнсоли)
+# Хоткей для быстрого добавения\изменения хоткеев (на 'нейтралке' в ОС)
+# юзай mc # https://unix.stackexchange.com/questions/31739/insert-selected-filename-while-copying-in-midnight-commander
+# ===============================================
