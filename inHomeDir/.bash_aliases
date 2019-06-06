@@ -36,5 +36,6 @@ add_alias() { # https://stackoverflow.com/questions/7131670/make-a-bash-alias-th
 # Алиас для быстрого добавения\изменения алиасов (в кнсоли)
 # Хоткей для быстрого добавения\изменения хоткеев (на 'нейтралке' в ОС)
     # https://askubuntu.com/questions/26056/where-are-gnome-keyboard-shortcuts-stored
+    # https://superuser.com/questions/769015/mate-1-8-0-how-to-set-ctrlescape-shortcut-for-main-menu
 # юзай mc # https://unix.stackexchange.com/questions/31739/insert-selected-filename-while-copying-in-midnight-commander
 # ===============================================
