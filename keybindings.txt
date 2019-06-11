@@ -1,0 +1,5 @@
+Mod4+t	gnome-terminal
+Mod4+r	pluma
+Mod4+e	pcmanfm
+Mod4+p?	mate-keybinding-properties
+print?	mate-screenshot --interactive
