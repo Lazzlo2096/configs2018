@@ -1,0 +1,22 @@
+zorg@zorg:~/$ screenfetch 
+                          ./+o+-       zorg@zorg
+                  yyyyy- -yyyyyy+      OS: Ubuntu 18.04 bionic
+               ://+//////-yyyyyyo      Kernel: x86_64 Linux 4.18.0-25-generic
+           .++ .:/++++++/-.+sss/`      Uptime: 24m
+         .:++o:  /++++++++/:--:/-      Packages: 2534
+        o:+o+:++.`..```.-/oo+++++/     Shell: bash
+       .:+o:+o/.          `+sssoo+/    Resolution: 1600x900
+  .++/+:+oo+o:`             /sssooo.   DE: MATE 1.20.0
+ /+++//+:`oo+o               /::--:.   WM: Metacity (Marco)
+ \+/+o+++`o++o               ++////.   GTK Theme: 'TraditionalOk' [GTK2/3]
+  .++.o+++oo+:`             /dddhhh.   Icon Theme: menta
+       .+.o+oo:.          `oddhhhh+    Font: Ubuntu 10
+        \+.++o+o``-````.:ohdhhhhh+     CPU: Intel Core i5-3210M @ 4x 3.1GHz [59.0°C]
+         `:o+++ `ohhhhhhhhyo++os:      GPU: Mesa DRI Intel(R) Ivybridge Mobile 
+           .o:`.syhhhhhhh/.oo++o`      RAM: 1774MiB / 7878MiB
+               /osyyyyyyo++ooo+++/    
+                   ````` +oo+++o\:    
+                          `oo++.   
+
+Это убунта куда я установил mate
+кстати на виртуалке попробовать установить мате на 18.04. на 19.04 и посмареть на мышку
