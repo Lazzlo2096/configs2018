@@ -3,7 +3,7 @@
 #yes | sudo apt install haskell-platform # Ubuntu [  cosmic  ] [universe] cabal-install ghc ghc-haddock happy alex
 
 # install stack:
-# https://docs.haskellstack.org/en/stable/README/
+# v-- https://docs.haskellstack.org/en/stable/README/ # а также дальше там гайд
 wget -qO- https://get.haskellstack.org/ | sh
 #Кстати с помошью стека можно установить и хаскель компайлер, по этому вполне возможно прошую команду не надо делать
 
